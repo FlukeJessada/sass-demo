@@ -55,8 +55,7 @@ main {
     @include desktop {
         display: grid;
         grid-template-columns: 50% auto;
-        grid-template-areas:
-            "primary card";
+        grid-template-areas: 'primary card';
     }
 
     section#card {
