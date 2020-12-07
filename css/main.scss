@@ -81,6 +81,15 @@ main {
             li {
                 margin-bottom: 10px;
 
+                a {
+                    text-decoration: none;
+                    color: #000;
+
+                    &:hover {
+                        color: #666;
+                    }
+                }
+
                 span {
                     position: absolute;
                     width: 30px;
@@ -88,6 +97,10 @@ main {
                     background-color: color(primary-light);
                     border-radius: 50%;
                     margin-right: 10px;
+
+                    &.active {
+                        background-color: color(primary);
+                    }
                 }
 
                 strong {

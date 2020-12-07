@@ -75,6 +75,15 @@ main section#card ul li {
   margin-bottom: 10px;
 }
 
+main section#card ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+main section#card ul li a:hover {
+  color: #666;
+}
+
 main section#card ul li span {
   position: absolute;
   width: 30px;
@@ -82,6 +91,10 @@ main section#card ul li span {
   background-color: #fff1cc;
   border-radius: 50%;
   margin-right: 10px;
+}
+
+main section#card ul li span.active {
+  background-color: #ffbb00;
 }
 
 main section#card ul li strong {
